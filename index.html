@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/images/logo.png" type="image/x-icon" />
+    <title>Trà Sữa Châu Viên 珠圓奶茶</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      main {
+        text-align: center;
+        box-shadow: 0px 4px 10px -3px rgba(0, 0, 0, 0.3);
+        padding: 20px 30px;
+        border-radius: 10px;
+      }
+
+      .header {
+        padding: 12px 20px;
+        margin-bottom: 17px;
+        background: linear-gradient(to right, #5a9c68, #3e803f);
+        color: #fff;
+        border-radius: 999px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .banner-container {
+        width: 300px;
+        padding: 5px;
+        box-shadow: 0 0 10px -4px #ccc;
+        border-radius: 20px;
+        display: flex;
+
+      }
+
+      .banner-container img {
+        height: 100%;
+        width: 100%;
+         border-radius: 20px;
+      }
+
+      .info h1 {
+        color: #db2426;
+        margin: 20px 0 15px 0;
+      }
+
+      .contact {
+        color: #276e44;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: start;
+      }
+
+      .contact a {
+        color: #276e44;
+        font-weight: 500;
+        text-decoration: none;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+
+      .floating {
+        animation: float 2s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <main class="floating">
+            <div class="header">Website chính thức</div>
+            <div class="banner-container">
+              <img src="./public/images/chau-vien.jpg" alt="Trà Sữa Châu Viên 珠圓奶茶" />
+            </div>
+            <div class="info">
+              <h1>Trà Sữa Châu Viên</h1>
+              <div class="contact">
+                <p>Hotline: <a href="tel:0914069167">0914 069 167</a></p>
+                <p>
+                  Email:
+                  <a href="mailto:trasuachauvien.vn@gmail.com"
+                    >trasuachauvien.vn@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+        </main>
+    </div>
+  </body>
+</html>
